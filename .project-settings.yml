@@ -2,20 +2,8 @@ module-template: ! 'module MODULE_NAME where
 
 '
 extensions: {}
-environment: null
+environment: default
 cabal-file: project.cabal
-modules:
-  Foundation:
-    filename: Foundation.hs
-  Main:
-    filename: Main.hs
-  Handler.Home:
-    filename: Handler/Home.hs
-  Handler.Preview:
-    filename: Handler/Preview.hs
-  Handler.Download:
-    filename: Handler/Download.hs
-  Dispatch:
-    filename: Dispatch.hs
 version: 1
 ghc-args: []
+excluded-modules: []
